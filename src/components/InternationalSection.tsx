@@ -34,9 +34,10 @@ const InternationalSection = () => {
           ))}
         </div>
         
-        <p className="text-cs-text text-lg max-w-2xl mx-auto">
+        <p className="text-cs-text text-lg max-w-2xl mx-auto mb-6">
           Brasil | EUA | Europa | Dubai | China
         </p>
+        <div className="w-20 h-1 bg-cs-primary mx-auto"></div>
       </div>
     </section>
   );
