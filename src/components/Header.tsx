@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const Header = () => {
   return (
-    <header className="fixed top-0 w-full z-50 bg-cs-dark/95 backdrop-blur-sm border-b border-cs-secondary">
+    <header className="fixed top-0 w-full z-50">
       <div className="container mx-auto px-4 py-4">
         <nav className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
