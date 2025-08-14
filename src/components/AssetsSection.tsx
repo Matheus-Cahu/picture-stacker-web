@@ -86,7 +86,7 @@ const AssetsSection = () => {
           <h3 className="text-2xl font-bold text-cs-text mb-6">
             QUER COMPRAR OU VENDER UM ATIVO?
           </h3>
-          <Button className="bg-cs-primary hover:bg-cs-primary-light text-cs-text px-8 py-3 text-lg font-semibold">
+          <Button className="bg-cs-primary hover:bg-cs-primary-light text-cs-text px-16 py-3 text-lg font-semibold">
             CLIQUE AQUI
           </Button>
         </div>
