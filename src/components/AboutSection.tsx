@@ -27,12 +27,12 @@ const AboutSection = () => {
           
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center flex flex-col">
-              <div className="w-20 h-20 bg-cs-primary rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-20 h-20 bg-cs-primary rounded-full flex items-center justify-center mx-auto mb-6">
                 <Target className="w-10 h-10 text-cs-text" />
               </div>
-              <h3 className="text-xl font-bold text-cs-text mb-4">MISSÃO</h3>
+              <h3 className="text-xl font-bold text-cs-text mb-6">MISSÃO</h3>
               <div className="relative flex-1 flex flex-col justify-between">
-                <p className="text-cs-text-muted text-sm leading-relaxed mb-4 max-w-xs mx-auto">
+                <p className="text-cs-text-muted text-sm leading-relaxed mb-6 max-w-xs mx-auto">
                   Desenvolver soluções sustentáveis, tecnológicas e jurídicas para transformar empresas e instituições.
                 </p>
                 <div className="w-48 h-1 bg-cs-primary mx-auto"></div>
@@ -40,12 +40,12 @@ const AboutSection = () => {
             </div>
             
             <div className="text-center flex flex-col">
-              <div className="w-20 h-20 bg-cs-primary rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-20 h-20 bg-cs-primary rounded-full flex items-center justify-center mx-auto mb-6">
                 <Eye className="w-10 h-10 text-cs-text" />
               </div>
-              <h3 className="text-xl font-bold text-cs-text mb-4">VISÃO</h3>
+              <h3 className="text-xl font-bold text-cs-text mb-6">VISÃO</h3>
               <div className="relative flex-1 flex flex-col justify-between">
-                <p className="text-cs-text-muted text-sm leading-relaxed mb-4 max-w-xs mx-auto">
+                <p className="text-cs-text-muted text-sm leading-relaxed mb-6 max-w-xs mx-auto">
                   Ser referência em soluções integradas para ESG, tecnologia e governança no Brasil e exterior.
                 </p>
                 <div className="w-48 h-1 bg-cs-primary mx-auto"></div>
@@ -53,12 +53,12 @@ const AboutSection = () => {
             </div>
             
             <div className="text-center flex flex-col">
-              <div className="w-20 h-20 bg-cs-primary rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-20 h-20 bg-cs-primary rounded-full flex items-center justify-center mx-auto mb-6">
                 <Heart className="w-10 h-10 text-cs-text" />
               </div>
-              <h3 className="text-xl font-bold text-cs-text mb-4">VALORES</h3>
+              <h3 className="text-xl font-bold text-cs-text mb-6">VALORES</h3>
               <div className="relative flex-1 flex flex-col justify-between">
-                <p className="text-cs-text-muted text-sm leading-relaxed mb-4 max-w-xs mx-auto">
+                <p className="text-cs-text-muted text-sm leading-relaxed mb-6 max-w-xs mx-auto">
                   Ética, inovação, sustentabilidade, multidisciplinaridade e impacto positivo.
                 </p>
                 <div className="w-48 h-1 bg-cs-primary mx-auto"></div>
