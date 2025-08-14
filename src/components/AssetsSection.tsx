@@ -52,12 +52,12 @@ const AssetsSection = () => {
   return (
     <section id="ativos" className="py-20 bg-cs-secondary">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-cs-text mb-4">
+        <div className="mb-16">
+          <h2 className="text-4xl font-bold text-cs-text mb-4 text-left">
             NOSSOS <span className="text-cs-primary">ATIVOS</span>
           </h2>
-          <div className="w-20 h-1 bg-cs-primary mx-auto mb-8"></div>
-          <p className="text-cs-text-muted max-w-4xl mx-auto text-lg leading-relaxed">
+          <div className="w-20 h-1 bg-cs-primary mb-8"></div>
+          <p className="text-cs-text-muted max-w-4xl text-lg leading-relaxed">
             Trabalhamos com um portfólio diversificado de ativos de alto valor, incluindo frigoríficos, minerais, gemas, terras, fazendas, agricultura e outros empreendimentos estratégicos. Atuamos para conectar oportunidades atuais e inovadoras e empresas que buscam segurança, rentabilidade e crescimento patrimonial.
           </p>
         </div>
