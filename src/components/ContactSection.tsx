@@ -11,8 +11,8 @@ const ContactSection = () => {
       </div>
       
       <div className="container mx-auto px-4 relative z-10">
-        <div className="text-left mb-16">
-          <h2 className="text-4xl font-bold text-cs-text mb-4">CONTATO</h2>
+        <div className="mb-16 pl-8">
+          <h2 className="text-4xl font-bold text-cs-text mb-4 text-left">CONTATO</h2>
           <div className="w-20 h-1 bg-cs-primary"></div>
         </div>
         
