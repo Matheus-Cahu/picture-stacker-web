@@ -71,15 +71,15 @@ const AssetsSection = () => {
           {assets.map((asset) => (
             <div 
               key={asset.id} 
-              className="bg-cs-dark rounded-lg overflow-hidden shadow-card-cs hover:transform hover:scale-105 transition-all duration-300"
+              className="bg-cs-dark rounded-lg overflow-hidden shadow-card-cs hover:transform hover:scale-105 transition-all duration-300 relative"
             >
-              <div className="h-48 bg-cover bg-center" style={{ backgroundImage: `url(${asset.image})` }}>
-                <div className="h-full bg-cs-dark/60 flex items-end p-4">
-                  <h3 className="text-cs-text font-bold text-lg">{asset.title}</h3>
+              <div className="h-64 bg-cover bg-center relative" style={{ backgroundImage: `url(${asset.image})` }}>
+                <div className="h-full bg-cs-dark/40"></div>
+                <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
+                  <div className="bg-cs-dark/80 backdrop-blur-sm border border-cs-primary/30 rounded-full px-6 py-2">
+                    <h3 className="text-cs-text font-bold text-sm text-center whitespace-nowrap">{asset.title}</h3>
+                  </div>
                 </div>
-              </div>
-              <div className="p-4">
-                <p className="text-cs-text-muted text-sm">{asset.description}</p>
               </div>
             </div>
           ))}
