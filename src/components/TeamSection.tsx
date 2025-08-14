@@ -58,11 +58,16 @@ const TeamSection = () => {
   return (
     <section id="equipe" className="py-20 bg-cs-dark">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-cs-text mb-4">
+        <div className="mb-16 pl-8">
+          <h2 className="text-4xl font-bold text-cs-text mb-16 text-left">
             NOSSA <span className="text-cs-primary">EQUIPE</span>
           </h2>
-          <div className="w-20 h-1 bg-cs-primary mx-auto"></div>
+          <div className="flex gap-12 mb-24">
+            <div className="w-2 h-2 bg-cs-primary rounded-full"></div>
+            <div className="w-2 h-2 bg-cs-primary rounded-full"></div>
+            <div className="w-2 h-2 bg-cs-primary rounded-full"></div>
+            <div className="w-2 h-2 bg-cs-primary rounded-full"></div>
+          </div>
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
