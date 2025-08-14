@@ -30,7 +30,7 @@ const AboutSection = () => {
               <div className="w-20 h-20 bg-cs-primary rounded-full flex items-center justify-center mx-auto mb-4">
                 <Target className="w-10 h-10 text-cs-text" />
               </div>
-              <h3 className="text-2xl font-bold text-cs-text mb-4">MISSÃO</h3>
+              <h3 className="text-xl font-bold text-cs-text mb-4">MISSÃO</h3>
               <div className="relative">
                 <p className="text-cs-text-muted leading-relaxed mb-4">
                   Desenvolver soluções sustentáveis, tecnológicas e jurídicas para transformar empresas e instituições.
@@ -43,7 +43,7 @@ const AboutSection = () => {
               <div className="w-20 h-20 bg-cs-primary rounded-full flex items-center justify-center mx-auto mb-4">
                 <Eye className="w-10 h-10 text-cs-text" />
               </div>
-              <h3 className="text-2xl font-bold text-cs-text mb-4">VISÃO</h3>
+              <h3 className="text-xl font-bold text-cs-text mb-4">VISÃO</h3>
               <div className="relative">
                 <p className="text-cs-text-muted leading-relaxed mb-4">
                   Ser referência em soluções integradas para ESG, tecnologia e governança no Brasil e exterior.
@@ -56,7 +56,7 @@ const AboutSection = () => {
               <div className="w-20 h-20 bg-cs-primary rounded-full flex items-center justify-center mx-auto mb-4">
                 <Heart className="w-10 h-10 text-cs-text" />
               </div>
-              <h3 className="text-2xl font-bold text-cs-text mb-4">VALORES</h3>
+              <h3 className="text-xl font-bold text-cs-text mb-4">VALORES</h3>
               <div className="relative">
                 <p className="text-cs-text-muted leading-relaxed mb-4">
                   Ética, inovação, sustentabilidade, multidisciplinaridade e impacto positivo.
