@@ -7,7 +7,7 @@ const Header = () => {
         <nav className="flex items-center justify-center">
           <div className="flex items-center space-x-8">
             {/* Link Início - Esquerda da Logo */}
-            <a href="#inicio" className="text-cs-text hover:text-cs-primary transition-colors">
+            <a href="#inicio" className="text-cs-text hover:text-cs-primary transition-colors story-link underline">
               Início
             </a>
             
@@ -22,7 +22,7 @@ const Header = () => {
             </div>
             
             {/* Link Ativos - Direita da Logo */}
-            <a href="#ativos" className="text-cs-text hover:text-cs-primary transition-colors">
+            <a href="#ativos" className="text-cs-text hover:text-cs-primary transition-colors story-link underline">
               Ativos
             </a>
           </div>
