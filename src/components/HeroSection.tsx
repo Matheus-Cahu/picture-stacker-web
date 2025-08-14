@@ -14,10 +14,10 @@ const HeroSection = () => {
         <h1 className="text-6xl md:text-8xl font-bold text-cs-text mb-6 tracking-tight">
           CS SOLUTIONS
         </h1>
-        <div className="w-32 h-1 bg-cs-primary mx-auto mb-8"></div>
-        <p className="text-xl md:text-2xl text-cs-text-muted max-w-4xl mx-auto leading-relaxed">
+        <p className="text-xl md:text-2xl text-cs-text-muted max-w-4xl mx-auto leading-relaxed mb-4">
           Inovação e Gestão Sustentável com Segurança Jurídica
         </p>
+        <div className="w-32 h-1 bg-cs-primary mx-auto mb-8"></div>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 max-w-4xl mx-auto">
           <div className="flex flex-col items-center space-y-2">
