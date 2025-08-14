@@ -7,7 +7,7 @@ const HeroSection = () => {
       id="inicio"
       className="min-h-screen flex items-center justify-center relative bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: `linear-gradient(rgba(34, 53, 48, 0.4), rgba(34, 53, 48, 0.5)), url(${heroBackground})`
+        backgroundImage: `linear-gradient(rgba(34, 53, 48, 0.5), rgba(34, 53, 48, 0.6)), url(${heroBackground})`
       }}
     >
       <div className="container mx-auto px-4 text-center">
@@ -18,34 +18,39 @@ const HeroSection = () => {
           Inovação e Gestão Sustentável com Segurança Jurídica
         </p>
         <div className="h-1 bg-cs-primary mx-auto mb-8" style={{ width: 'calc(100% + 10px)', maxWidth: '620px' }}></div>
-        
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 max-w-4xl mx-auto">
-          <div className="flex flex-col items-center space-y-2">
-            <div className="w-16 h-16 bg-cs-primary/20 rounded-full flex items-center justify-center">
-              <TrendingUp className="w-8 h-8 text-cs-primary" />
+      </div>
+      
+      {/* Services bar at bottom */}
+      <div className="absolute bottom-0 left-0 right-0 bg-cs-dark/90 py-8">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
+            <div className="flex flex-col items-center space-y-3">
+              <div className="w-12 h-12 bg-cs-primary/20 rounded-full flex items-center justify-center">
+                <TrendingUp className="w-6 h-6 text-cs-primary" />
+              </div>
+              <p className="text-cs-text text-sm text-center">Venda e tokenização de ativos</p>
             </div>
-            <p className="text-cs-text text-sm">Venda e tokenização de ativos</p>
-          </div>
-          
-          <div className="flex flex-col items-center space-y-2">
-            <div className="w-16 h-16 bg-cs-primary/20 rounded-full flex items-center justify-center">
-              <Users className="w-8 h-8 text-cs-primary" />
+            
+            <div className="flex flex-col items-center space-y-3">
+              <div className="w-12 h-12 bg-cs-primary/20 rounded-full flex items-center justify-center">
+                <Users className="w-6 h-6 text-cs-primary" />
+              </div>
+              <p className="text-cs-text text-sm text-center">Consultoria em Vendas e Gestão de Pessoas</p>
             </div>
-            <p className="text-cs-text text-sm">Consultoria em Vendas e Gestão de Pessoas</p>
-          </div>
-          
-          <div className="flex flex-col items-center space-y-2">
-            <div className="w-16 h-16 bg-cs-primary/20 rounded-full flex items-center justify-center">
-              <Globe className="w-8 h-8 text-cs-primary" />
+            
+            <div className="flex flex-col items-center space-y-3">
+              <div className="w-12 h-12 bg-cs-primary/20 rounded-full flex items-center justify-center">
+                <Globe className="w-6 h-6 text-cs-primary" />
+              </div>
+              <p className="text-cs-text text-sm text-center">Consultoria de Marketing e Posicionamento Digital</p>
             </div>
-            <p className="text-cs-text text-sm">Consultoria de Marketing e Posicionamento Digital</p>
-          </div>
-          
-          <div className="flex flex-col items-center space-y-2">
-            <div className="w-16 h-16 bg-cs-primary/20 rounded-full flex items-center justify-center">
-              <Shield className="w-8 h-8 text-cs-primary" />
+            
+            <div className="flex flex-col items-center space-y-3">
+              <div className="w-12 h-12 bg-cs-primary/20 rounded-full flex items-center justify-center">
+                <Shield className="w-6 h-6 text-cs-primary" />
+              </div>
+              <p className="text-cs-text text-sm text-center">Consultoria Contábil e Financeira</p>
             </div>
-            <p className="text-cs-text text-sm">Consultoria Contábil e Financeira</p>
           </div>
         </div>
       </div>
