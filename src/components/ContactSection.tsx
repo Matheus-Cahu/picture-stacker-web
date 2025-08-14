@@ -35,18 +35,18 @@ const ContactSection = () => {
           
           <div className="text-left">
             <div className="flex items-center space-x-3 mb-4">
-              <Instagram className="w-6 h-6 text-cs-primary" />
-              <h3 className="text-xl font-semibold text-cs-text">Instagram</h3>
-            </div>
-            <p className="text-cs-text-muted">@cssolutionsgroup</p>
-          </div>
-          
-          <div className="text-left">
-            <div className="flex items-center space-x-3 mb-4">
               <Globe className="w-6 h-6 text-cs-primary" />
               <h3 className="text-xl font-semibold text-cs-text">Site</h3>
             </div>
             <p className="text-cs-text-muted">www.cssolution.com.br</p>
+          </div>
+          
+          <div className="text-left">
+            <div className="flex items-center space-x-3 mb-4">
+              <Instagram className="w-6 h-6 text-cs-primary" />
+              <h3 className="text-xl font-semibold text-cs-text">Instagram</h3>
+            </div>
+            <p className="text-cs-text-muted">@cssolutionsgroup</p>
           </div>
           
           <div className="text-left md:col-span-2">
