@@ -16,7 +16,7 @@ const Header = () => {
               <img 
                 src="/lovable-uploads/29467764-b413-4136-8212-51df46d297f6.png" 
                 alt="CS Solutions Group Logo" 
-                className="h-10 w-auto"
+                className="h-14 w-auto"
               />
               <span className="text-cs-text font-semibold text-xl">CS SOLUTIONS GROUP</span>
             </div>
