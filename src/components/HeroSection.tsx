@@ -7,7 +7,7 @@ const HeroSection = () => {
       id="inicio"
       className="min-h-screen flex items-center justify-center relative bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: `linear-gradient(rgba(34, 53, 48, 0.8), rgba(34, 53, 48, 0.9)), url(${heroBackground})`
+        backgroundImage: `linear-gradient(rgba(34, 53, 48, 0.4), rgba(34, 53, 48, 0.5)), url(${heroBackground})`
       }}
     >
       <div className="container mx-auto px-4 text-center">
