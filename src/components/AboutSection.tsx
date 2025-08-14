@@ -10,7 +10,6 @@ const AboutSection = () => {
               QUEM SOMOS
             </h2>
           </div>
-          <div className="w-20 h-1 bg-cs-primary mx-auto"></div>
         </div>
         
         <div className="max-w-6xl mx-auto">
