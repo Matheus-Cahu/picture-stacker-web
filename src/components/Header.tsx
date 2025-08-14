@@ -20,26 +20,27 @@ const Header = () => {
     }`}>
       <div className="container mx-auto px-4 py-4">
         <nav className="flex items-center justify-center">
-          <div className="flex items-center space-x-8">
-            {/* Link Início - Esquerda da Logo */}
-            <a href="#inicio" className="text-cs-text hover:text-cs-primary transition-colors story-link underline">
-              Início
-            </a>
-            
-            {/* Logo - Centro */}
-            <div className="flex items-center space-x-3 mx-8">
+          {/* Mobile Layout */}
+          <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4 md:space-x-8">
+            {/* Logo - Centro em mobile, esquerda em desktop */}
+            <div className="flex items-center space-x-2 md:space-x-3 order-2 sm:order-2">
               <img 
                 src="/lovable-uploads/29467764-b413-4136-8212-51df46d297f6.png" 
                 alt="CS Solutions Group Logo" 
-                className="h-14 w-auto"
+                className="h-10 sm:h-12 md:h-14 w-auto"
               />
-              <span className="text-cs-text font-semibold text-xl">CS SOLUTIONS GROUP</span>
+              <span className="text-cs-text font-semibold text-sm sm:text-base md:text-xl">CS SOLUTIONS GROUP</span>
             </div>
             
-            {/* Link Ativos - Direita da Logo */}
-            <a href="#ativos" className="text-cs-text hover:text-cs-primary transition-colors story-link underline">
-              Ativos
-            </a>
+            {/* Links - Abaixo da logo em mobile, nas laterais em desktop */}
+            <div className="flex space-x-6 sm:space-x-8 order-1 sm:order-1">
+              <a href="#inicio" className="text-cs-text hover:text-cs-primary transition-colors story-link underline text-sm sm:text-base">
+                Início
+              </a>
+              <a href="#ativos" className="text-cs-text hover:text-cs-primary transition-colors story-link underline text-sm sm:text-base">
+                Ativos
+              </a>
+            </div>
           </div>
         </nav>
       </div>
