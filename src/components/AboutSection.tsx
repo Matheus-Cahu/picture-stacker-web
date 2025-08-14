@@ -61,7 +61,7 @@ const AboutSection = () => {
                 <p className="text-cs-text-muted text-sm leading-relaxed mb-4 max-w-xs mx-auto">
                   Ética, inovação, sustentabilidade, multidisciplinaridade e impacto positivo.
                 </p>
-                <div className="w-32 h-1 bg-cs-primary mx-auto"></div>
+                <div className="w-32 h-1 bg-cs-primary mx-auto mt-2"></div>
               </div>
             </div>
           </div>
