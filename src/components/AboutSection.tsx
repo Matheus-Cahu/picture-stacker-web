@@ -35,7 +35,7 @@ const AboutSection = () => {
                 <p className="text-cs-text-muted leading-relaxed mb-4">
                   Desenvolver soluções sustentáveis, tecnológicas e jurídicas para transformar empresas e instituições.
                 </p>
-                <div className="w-20 h-0.5 bg-cs-primary mx-auto"></div>
+                <div className="w-32 h-1 bg-cs-primary mx-auto"></div>
               </div>
             </div>
             
@@ -48,7 +48,7 @@ const AboutSection = () => {
                 <p className="text-cs-text-muted leading-relaxed mb-4">
                   Ser referência em soluções integradas para ESG, tecnologia e governança no Brasil e exterior.
                 </p>
-                <div className="w-20 h-0.5 bg-cs-primary mx-auto"></div>
+                <div className="w-32 h-1 bg-cs-primary mx-auto"></div>
               </div>
             </div>
             
@@ -61,7 +61,7 @@ const AboutSection = () => {
                 <p className="text-cs-text-muted leading-relaxed mb-4">
                   Ética, inovação, sustentabilidade, multidisciplinaridade e impacto positivo.
                 </p>
-                <div className="w-20 h-0.5 bg-cs-primary mx-auto"></div>
+                <div className="w-32 h-1 bg-cs-primary mx-auto"></div>
               </div>
             </div>
           </div>
