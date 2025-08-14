@@ -20,6 +20,9 @@ const Header = () => {
     }`}>
       <div className="container mx-auto px-4 py-4">
         <nav className="flex items-center justify-center">
+          <a href="#inicio" className="text-cs-text hover:text-cs-primary transition-colors story-link underline text-sm sm:text-base">
+                Início
+              </a>
           {/* Mobile Layout */}
           <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4 md:space-x-8">
             {/* Logo - Centro em mobile, esquerda em desktop */}
@@ -34,9 +37,7 @@ const Header = () => {
             
             {/* Links - Abaixo da logo em mobile, nas laterais em desktop */}
             <div className="flex space-x-6 sm:space-x-8 order-1 sm:order-1">
-              <a href="#inicio" className="text-cs-text hover:text-cs-primary transition-colors story-link underline text-sm sm:text-base">
-                Início
-              </a>
+              
               <a href="#ativos" className="text-cs-text hover:text-cs-primary transition-colors story-link underline text-sm sm:text-base">
                 Ativos
               </a>
