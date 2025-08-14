@@ -52,7 +52,7 @@ const AssetsSection = () => {
   return (
     <section id="ativos" className="py-20 bg-cs-secondary">
       <div className="container mx-auto px-4">
-        <div className="mb-16">
+        <div className="mb-16 pl-8">
           <h2 className="text-4xl font-bold text-cs-text mb-4 text-left">
             NOSSOS <span className="text-cs-primary">ATIVOS</span>
           </h2>
