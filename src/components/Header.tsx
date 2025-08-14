@@ -1,8 +1,23 @@
 import { Button } from "@/components/ui/button";
+import { useState, useEffect } from "react";
 
 const Header = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      setIsScrolled(scrollPosition > 50);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <header className="fixed top-0 w-full z-50">
+    <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${
+      isScrolled ? 'bg-cs-dark/95 backdrop-blur-md border-b border-cs-primary/20' : ''
+    }`}>
       <div className="container mx-auto px-4 py-4">
         <nav className="flex items-center justify-center">
           <div className="flex items-center space-x-8">
