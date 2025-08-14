@@ -73,7 +73,7 @@ const AssetsSection = () => {
               key={asset.id} 
               className="flex flex-col items-center gap-4"
             >
-              <div className="w-full h-48 bg-cover bg-center rounded-lg" style={{ backgroundImage: `url(${asset.image})` }}>
+              <div className="w-full h-64 bg-cover bg-center rounded-lg" style={{ backgroundImage: `url(${asset.image})` }}>
               </div>
               <div className="bg-transparent border border-cs-primary rounded-full px-6 py-2">
                 <h3 className="text-cs-text font-medium text-sm text-center whitespace-nowrap">{asset.title}</h3>
