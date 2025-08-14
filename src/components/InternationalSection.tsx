@@ -16,9 +16,11 @@ const InternationalSection = () => {
           <div className="w-20 h-20 bg-cs-primary/20 rounded-full flex items-center justify-center mx-auto mb-6">
             <Globe className="w-10 h-10 text-cs-primary" />
           </div>
-          <h2 className="text-3xl font-bold text-cs-text mb-4">
-            ALCANCE INTERNACIONAL
-          </h2>
+          <div className="inline-block border-2 border-cs-primary rounded-full px-8 py-3 mb-4">
+            <h2 className="text-3xl font-bold text-cs-text mb-0">
+              ALCANCE INTERNACIONAL
+            </h2>
+          </div>
           <div className="w-20 h-1 bg-cs-primary mx-auto"></div>
         </div>
         
