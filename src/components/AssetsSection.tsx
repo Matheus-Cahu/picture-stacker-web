@@ -56,7 +56,7 @@ const AssetsSection = () => {
           <h2 className="text-4xl font-bold text-cs-text mb-16 text-left">
             NOSSOS <span className="text-cs-primary">ATIVOS</span>
           </h2>
-          <div className="flex gap-4 mb-24">
+          <div className="flex gap-12 mb-24">
             <div className="w-2 h-2 bg-cs-primary rounded-full"></div>
             <div className="w-2 h-2 bg-cs-primary rounded-full"></div>
             <div className="w-2 h-2 bg-cs-primary rounded-full"></div>
