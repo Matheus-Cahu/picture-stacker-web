@@ -16,7 +16,7 @@ const ContactSection = () => {
           <div className="w-20 h-1 bg-cs-primary"></div>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-4xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-4xl pl-8">
           <div className="text-left">
             <div className="flex items-center space-x-3 mb-4">
               <Phone className="w-6 h-6 text-cs-primary" />
