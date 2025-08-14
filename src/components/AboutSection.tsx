@@ -5,9 +5,11 @@ const AboutSection = () => {
     <section id="sobre" className="py-20 bg-cs-dark">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-cs-text mb-4">
-            QUEM SOMOS
-          </h2>
+          <div className="inline-block border-2 border-cs-primary rounded-full px-8 py-3">
+            <h2 className="text-4xl font-bold text-cs-text mb-0">
+              QUEM SOMOS
+            </h2>
+          </div>
           <div className="w-20 h-1 bg-cs-primary mx-auto"></div>
         </div>
         
