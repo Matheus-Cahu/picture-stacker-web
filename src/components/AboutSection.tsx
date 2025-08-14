@@ -58,7 +58,7 @@ const AboutSection = () => {
               </div>
               <h3 className="text-xl font-bold text-cs-text mb-4">VALORES</h3>
               <div className="relative">
-                <p className="text-cs-text-muted text-sm leading-relaxed mb-4 max-w-xs mx-auto">
+                <p className="text-cs-text-muted text-sm leading-relaxed mb-4 max-w-44 mx-auto">
                   Ética, inovação, sustentabilidade, multidisciplinaridade e impacto positivo.
                 </p>
                 <div className="w-32 h-1 bg-cs-primary mx-auto"></div>
