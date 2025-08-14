@@ -24,32 +24,44 @@ const HeroSection = () => {
       <div className="absolute bottom-0 left-0 right-0 bg-black/50 py-12">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 max-w-6xl mx-auto">
-            <div className="flex items-center space-x-3 pb-3 border-b-2 border-cs-primary">
-              <div className="w-10 h-10 bg-cs-primary/20 rounded-full flex items-center justify-center flex-shrink-0">
-                <TrendingUp className="w-5 h-5 text-cs-primary" />
+            <div className="relative">
+              <div className="flex items-center space-x-3 pb-3">
+                <div className="w-10 h-10 bg-cs-primary/20 rounded-full flex items-center justify-center flex-shrink-0">
+                  <TrendingUp className="w-5 h-5 text-cs-primary" />
+                </div>
+                <p className="text-cs-text text-sm">Venda e tokenização de ativos</p>
               </div>
-              <p className="text-cs-text text-sm">Venda e tokenização de ativos</p>
+              <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-cs-primary" style={{ transform: 'translateY(10px)' }}></div>
             </div>
             
-            <div className="flex items-center space-x-3 pb-3 border-b-2 border-cs-primary">
-              <div className="w-10 h-10 bg-cs-primary/20 rounded-full flex items-center justify-center flex-shrink-0">
-                <Users className="w-5 h-5 text-cs-primary" />
+            <div className="relative">
+              <div className="flex items-center space-x-3 pb-3">
+                <div className="w-10 h-10 bg-cs-primary/20 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Users className="w-5 h-5 text-cs-primary" />
+                </div>
+                <p className="text-cs-text text-sm">Consultoria em Vendas e Gestão de Pessoas</p>
               </div>
-              <p className="text-cs-text text-sm">Consultoria em Vendas e Gestão de Pessoas</p>
+              <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-cs-primary" style={{ transform: 'translateY(10px)' }}></div>
             </div>
             
-            <div className="flex items-center space-x-3 pb-3 border-b-2 border-cs-primary">
-              <div className="w-10 h-10 bg-cs-primary/20 rounded-full flex items-center justify-center flex-shrink-0">
-                <Globe className="w-5 h-5 text-cs-primary" />
+            <div className="relative">
+              <div className="flex items-center space-x-3 pb-3">
+                <div className="w-10 h-10 bg-cs-primary/20 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Globe className="w-5 h-5 text-cs-primary" />
+                </div>
+                <p className="text-cs-text text-sm">Consultoria de Marketing e Posicionamento Digital</p>
               </div>
-              <p className="text-cs-text text-sm">Consultoria de Marketing e Posicionamento Digital</p>
+              <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-cs-primary" style={{ transform: 'translateY(10px)' }}></div>
             </div>
             
-            <div className="flex items-center space-x-3 pb-3 border-b-2 border-cs-primary">
-              <div className="w-10 h-10 bg-cs-primary/20 rounded-full flex items-center justify-center flex-shrink-0">
-                <Shield className="w-5 h-5 text-cs-primary" />
+            <div className="relative">
+              <div className="flex items-center space-x-3 pb-3">
+                <div className="w-10 h-10 bg-cs-primary/20 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Shield className="w-5 h-5 text-cs-primary" />
+                </div>
+                <p className="text-cs-text text-sm">Consultoria Contábil e Financeira</p>
               </div>
-              <p className="text-cs-text text-sm">Consultoria Contábil e Financeira</p>
+              <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-cs-primary" style={{ transform: 'translateY(10px)' }}></div>
             </div>
           </div>
         </div>
