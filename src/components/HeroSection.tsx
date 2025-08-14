@@ -21,9 +21,9 @@ const HeroSection = () => {
       </div>
       
       {/* Services bar at bottom */}
-      <div className="absolute bottom-0 left-0 right-0 bg-black/80 py-6">
+      <div className="absolute bottom-0 left-0 right-0 bg-black/80 py-12">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 max-w-6xl mx-auto">
             <div className="flex items-center space-x-3 pb-3 border-b-2 border-cs-primary">
               <div className="w-10 h-10 bg-cs-primary/20 rounded-full flex items-center justify-center flex-shrink-0">
                 <TrendingUp className="w-5 h-5 text-cs-primary" />
