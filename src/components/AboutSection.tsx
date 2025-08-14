@@ -31,9 +31,12 @@ const AboutSection = () => {
                 <Target className="w-10 h-10 text-cs-text" />
               </div>
               <h3 className="text-2xl font-bold text-cs-text mb-4">MISSÃO</h3>
-              <p className="text-cs-text-muted leading-relaxed">
-                Desenvolver soluções sustentáveis, tecnológicas e jurídicas para transformar empresas e instituições.
-              </p>
+              <div className="relative">
+                <p className="text-cs-text-muted leading-relaxed mb-4">
+                  Desenvolver soluções sustentáveis, tecnológicas e jurídicas para transformar empresas e instituições.
+                </p>
+                <div className="w-full h-0.5 bg-cs-primary"></div>
+              </div>
             </div>
             
             <div className="text-center">
@@ -41,9 +44,12 @@ const AboutSection = () => {
                 <Eye className="w-10 h-10 text-cs-text" />
               </div>
               <h3 className="text-2xl font-bold text-cs-text mb-4">VISÃO</h3>
-              <p className="text-cs-text-muted leading-relaxed">
-                Ser referência em soluções integradas para ESG, tecnologia e governança no Brasil e exterior.
-              </p>
+              <div className="relative">
+                <p className="text-cs-text-muted leading-relaxed mb-4">
+                  Ser referência em soluções integradas para ESG, tecnologia e governança no Brasil e exterior.
+                </p>
+                <div className="w-full h-0.5 bg-cs-primary"></div>
+              </div>
             </div>
             
             <div className="text-center">
@@ -51,9 +57,12 @@ const AboutSection = () => {
                 <Heart className="w-10 h-10 text-cs-text" />
               </div>
               <h3 className="text-2xl font-bold text-cs-text mb-4">VALORES</h3>
-              <p className="text-cs-text-muted leading-relaxed">
-                Ética, inovação, sustentabilidade, multidisciplinaridade e impacto positivo.
-              </p>
+              <div className="relative">
+                <p className="text-cs-text-muted leading-relaxed mb-4">
+                  Ética, inovação, sustentabilidade, multidisciplinaridade e impacto positivo.
+                </p>
+                <div className="w-full h-0.5 bg-cs-primary"></div>
+              </div>
             </div>
           </div>
         </div>
