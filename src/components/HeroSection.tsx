@@ -21,35 +21,35 @@ const HeroSection = () => {
       </div>
       
       {/* Services bar at bottom */}
-      <div className="absolute bottom-0 left-0 right-0 bg-cs-dark/90 py-8">
+      <div className="absolute bottom-0 left-0 right-0 bg-black/80 py-6">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
-            <div className="flex flex-col items-center space-y-3">
-              <div className="w-12 h-12 bg-cs-primary/20 rounded-full flex items-center justify-center">
-                <TrendingUp className="w-6 h-6 text-cs-primary" />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+            <div className="flex items-center space-x-3 pb-3 border-b-2 border-cs-primary">
+              <div className="w-10 h-10 bg-cs-primary/20 rounded-full flex items-center justify-center flex-shrink-0">
+                <TrendingUp className="w-5 h-5 text-cs-primary" />
               </div>
-              <p className="text-cs-text text-sm text-center">Venda e tokenização de ativos</p>
+              <p className="text-cs-text text-sm">Venda e tokenização de ativos</p>
             </div>
             
-            <div className="flex flex-col items-center space-y-3">
-              <div className="w-12 h-12 bg-cs-primary/20 rounded-full flex items-center justify-center">
-                <Users className="w-6 h-6 text-cs-primary" />
+            <div className="flex items-center space-x-3 pb-3 border-b-2 border-cs-primary">
+              <div className="w-10 h-10 bg-cs-primary/20 rounded-full flex items-center justify-center flex-shrink-0">
+                <Users className="w-5 h-5 text-cs-primary" />
               </div>
-              <p className="text-cs-text text-sm text-center">Consultoria em Vendas e Gestão de Pessoas</p>
+              <p className="text-cs-text text-sm">Consultoria em Vendas e Gestão de Pessoas</p>
             </div>
             
-            <div className="flex flex-col items-center space-y-3">
-              <div className="w-12 h-12 bg-cs-primary/20 rounded-full flex items-center justify-center">
-                <Globe className="w-6 h-6 text-cs-primary" />
+            <div className="flex items-center space-x-3 pb-3 border-b-2 border-cs-primary">
+              <div className="w-10 h-10 bg-cs-primary/20 rounded-full flex items-center justify-center flex-shrink-0">
+                <Globe className="w-5 h-5 text-cs-primary" />
               </div>
-              <p className="text-cs-text text-sm text-center">Consultoria de Marketing e Posicionamento Digital</p>
+              <p className="text-cs-text text-sm">Consultoria de Marketing e Posicionamento Digital</p>
             </div>
             
-            <div className="flex flex-col items-center space-y-3">
-              <div className="w-12 h-12 bg-cs-primary/20 rounded-full flex items-center justify-center">
-                <Shield className="w-6 h-6 text-cs-primary" />
+            <div className="flex items-center space-x-3 pb-3 border-b-2 border-cs-primary">
+              <div className="w-10 h-10 bg-cs-primary/20 rounded-full flex items-center justify-center flex-shrink-0">
+                <Shield className="w-5 h-5 text-cs-primary" />
               </div>
-              <p className="text-cs-text text-sm text-center">Consultoria Contábil e Financeira</p>
+              <p className="text-cs-text text-sm">Consultoria Contábil e Financeira</p>
             </div>
           </div>
         </div>
