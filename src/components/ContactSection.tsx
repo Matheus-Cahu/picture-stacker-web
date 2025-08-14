@@ -1,21 +1,19 @@
 import { Phone, Mail, Instagram, Globe, MapPin } from "lucide-react";
-import MapBackground from "./MapBackground";
 
 const ContactSection = () => {
   return (
-    <section id="contato" className="py-20 relative overflow-hidden">
-      {/* Map background */}
-      <MapBackground />
+    <section id="contato" className="py-20 bg-cs-dark relative overflow-hidden">
+      {/* Background geometric pattern */}
+      <div className="absolute inset-0 opacity-10">
+        <div className="absolute top-20 right-20 w-32 h-32 border-2 border-cs-primary rounded-full"></div>
+        <div className="absolute bottom-20 left-20 w-24 h-24 border-2 border-cs-primary transform rotate-45"></div>
+        <div className="absolute top-1/2 left-1/2 w-16 h-16 border-2 border-cs-primary transform -translate-x-1/2 -translate-y-1/2"></div>
+      </div>
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-cs-text mb-4">CONTATO</h2>
-          <div className="flex gap-12 mb-4 justify-center">
-            <div className="w-2 h-2 bg-cs-primary rounded-full"></div>
-            <div className="w-2 h-2 bg-cs-primary rounded-full"></div>
-            <div className="w-2 h-2 bg-cs-primary rounded-full"></div>
-            <div className="w-2 h-2 bg-cs-primary rounded-full"></div>
-          </div>
+          <div className="w-20 h-1 bg-cs-primary mx-auto"></div>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-4xl mx-auto">
