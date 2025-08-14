@@ -17,7 +17,7 @@ const HeroSection = () => {
         <p className="text-xl md:text-2xl text-cs-text-muted max-w-4xl mx-auto leading-relaxed mb-4">
           Inovação e Gestão Sustentável com Segurança Jurídica
         </p>
-        <div className="w-32 h-1 bg-cs-primary mx-auto mb-8"></div>
+        <div className="w-full h-1 bg-cs-primary mx-auto mb-8 max-w-4xl"></div>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 max-w-4xl mx-auto">
           <div className="flex flex-col items-center space-y-2">
