@@ -2,7 +2,7 @@ import { Eye, Target, Heart } from "lucide-react";
 
 const AboutSection = () => {
   return (
-    <section id="sobre" className="py-20 bg-green-900">
+    <section id="sobre" className="py-20 bg-cs-dark">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <div className="inline-block border-2 border-cs-primary rounded-full px-8 py-3">
