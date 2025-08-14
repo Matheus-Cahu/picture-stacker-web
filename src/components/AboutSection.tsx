@@ -32,10 +32,10 @@ const AboutSection = () => {
               </div>
               <h3 className="text-xl font-bold text-cs-text mb-4">MISSÃO</h3>
               <div className="relative">
-                <p className="text-cs-text leading-relaxed mb-6 max-w-xs mx-auto">
+                <p className="text-cs-text-muted leading-relaxed mb-4">
                   Desenvolver soluções sustentáveis, tecnológicas e jurídicas para transformar empresas e instituições.
                 </p>
-                <div className="w-32 h-2 bg-cs-primary mx-auto"></div>
+                <div className="w-20 h-0.5 bg-cs-primary mx-auto"></div>
               </div>
             </div>
             
@@ -45,10 +45,10 @@ const AboutSection = () => {
               </div>
               <h3 className="text-xl font-bold text-cs-text mb-4">VISÃO</h3>
               <div className="relative">
-                <p className="text-cs-text leading-relaxed mb-6 max-w-xs mx-auto">
+                <p className="text-cs-text-muted leading-relaxed mb-4">
                   Ser referência em soluções integradas para ESG, tecnologia e governança no Brasil e exterior.
                 </p>
-                <div className="w-32 h-2 bg-cs-primary mx-auto"></div>
+                <div className="w-20 h-0.5 bg-cs-primary mx-auto"></div>
               </div>
             </div>
             
@@ -58,10 +58,10 @@ const AboutSection = () => {
               </div>
               <h3 className="text-xl font-bold text-cs-text mb-4">VALORES</h3>
               <div className="relative">
-                <p className="text-cs-text leading-relaxed mb-6 max-w-xs mx-auto">
+                <p className="text-cs-text-muted leading-relaxed mb-4">
                   Ética, inovação, sustentabilidade, multidisciplinaridade e impacto positivo.
                 </p>
-                <div className="w-32 h-2 bg-cs-primary mx-auto"></div>
+                <div className="w-20 h-0.5 bg-cs-primary mx-auto"></div>
               </div>
             </div>
           </div>
