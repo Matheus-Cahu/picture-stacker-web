@@ -1,4 +1,4 @@
-import heroBackground from "@/assets/hero-background.jpg";
+import heroBackground from "@/assets/CAPA.png";
 import { Users, TrendingUp, Shield, Globe } from "lucide-react";
 
 const HeroSection = () => {

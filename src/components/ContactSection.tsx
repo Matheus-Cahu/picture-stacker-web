@@ -2,7 +2,7 @@ import { Phone, Mail, Instagram, Globe, MapPin } from "lucide-react";
 
 const ContactSection = () => {
   return (
-    <section id="contato" className="py-12 sm:py-16 md:py-20 bg-cs-dark relative overflow-hidden">
+    <section id="contato" className="py-12 sm:py-16 md:py-20 bg-background relative overflow-hidden">
       {/* Background geometric pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-10 sm:top-20 right-10 sm:right-20 w-20 h-20 sm:w-32 sm:h-32 border-2 border-cs-primary rounded-full"></div>

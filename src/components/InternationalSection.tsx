@@ -10,7 +10,7 @@ const InternationalSection = () => {
   ];
 
   return (
-    <section className="py-12 sm:py-16 md:py-20 bg-cs-secondary">
+    <section className="py-12 sm:py-16 md:py-20 bg-background">
       <div className="container mx-auto px-4 text-center">
         <div className="mb-8 sm:mb-12">
           <div className="w-16 h-16 sm:w-20 sm:h-20 bg-cs-primary/20 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">

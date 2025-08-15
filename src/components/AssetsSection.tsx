@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import industrialImg from "@/assets/industrial.jpg";
-import miningImg from "@/assets/mining.jpg";
+import miningImg from "@/assets/mining.png";
 import buildingsImg from "@/assets/buildings.jpg";
 
 const AssetsSection = () => {
@@ -50,7 +50,7 @@ const AssetsSection = () => {
   ];
 
   return (
-    <section id="ativos" className="pt-8 pb-20 bg-cs-dark">
+    <section id="ativos" className="pt-8 pb-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="mb-16 pl-8">
           <h2 className="text-4xl font-bold text-cs-text mb-16 text-left">

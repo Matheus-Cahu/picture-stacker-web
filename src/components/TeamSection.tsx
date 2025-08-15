@@ -56,7 +56,7 @@ const TeamSection = () => {
   ];
 
   return (
-    <section id="equipe" className="py-12 sm:py-16 md:py-20 bg-cs-dark">
+    <section id="equipe" className="py-12 sm:py-16 md:py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="mb-12 sm:mb-16 pl-4 sm:pl-8">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-cs-text mb-8 sm:mb-12 md:mb-16 text-left">

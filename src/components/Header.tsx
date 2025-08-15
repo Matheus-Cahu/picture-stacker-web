@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -16,7 +17,7 @@ const Header = () => {
 
   return (
     <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-cs-dark/95 backdrop-blur-md border-b border-cs-primary/20' : ''
+      isScrolled ? 'bg-background/95 backdrop-blur-md border-b border-cs-primary/20' : ''
     }`}>
       <div className="container mx-auto px-4 py-4">
         <nav className="flex items-center justify-center">
@@ -34,10 +35,15 @@ const Header = () => {
             
             {/* Links - Abaixo da logo em mobile, nas laterais em desktop */}
             <div className="flex space-x-6 sm:space-x-8 order-1 sm:order-1">
-              
-              <a href="#ativos" className="text-cs-text hover:text-cs-primary transition-colors story-link underline text-sm sm:text-base">
+
+            <Link to="/" className="text-cs-text hover:text-cs-primary transition-colors story-link underline text-sm sm:text-base"
+              >
+                Início
+              </Link>
+            <Link to="/ativos" className="text-cs-text hover:text-cs-primary transition-colors story-link underline text-sm sm:text-base"
+              >
                 Ativos
-              </a>
+              </Link>
             </div>
           </div>
         </nav>

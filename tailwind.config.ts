@@ -25,8 +25,9 @@ export default {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
-				background: 'hsl(var(--background))',
-				foreground: 'hsl(var(--foreground))',
+				background: '#131e22',
+        details: '#468e69',
+				foreground: '#131e22',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
@@ -68,7 +69,7 @@ export default {
 				cs: {
 					dark: 'hsl(var(--cs-dark))',
 					darker: 'hsl(var(--cs-darker))',
-					primary: 'hsl(var(--cs-primary))',
+					primary: '#468e69',
 					'primary-light': 'hsl(var(--cs-primary-light))',
 					secondary: 'hsl(var(--cs-secondary))',
 					text: 'hsl(var(--cs-text))',
