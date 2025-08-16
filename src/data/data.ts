@@ -74,7 +74,7 @@ export interface Asset {
 
 /**
  * Array de dados dos ativos com as imagens reais importadas.
- * Os PDFs devem ser colocados em `public/assets/pdfs/` e referenciados como `/assets/pdfs/nome-do-arquivo.pdf`.
+ * Os PDFs estão localizados em `public/assets/PDF/` e são referenciados como `/assets/PDF/nome-do-arquivo.pdf`.
  */
 export const assetsData: Asset[] = [
   {
@@ -100,7 +100,7 @@ export const assetsData: Asset[] = [
       jazidaMineral2,
       jazidaMineral3,
     ],
-    pdfUrl: '/assets/PDF/JAZIDA-MINERAL.pdf',
+    pdfUrl: '/assets/PDF/jazida-mineral.pdf',
   },
   {
     id: 'turmalinas-gemas-variadas',
@@ -115,7 +115,7 @@ export const assetsData: Asset[] = [
       pedrasPreciosas5,
       pedrasPreciosas6,
     ],
-    pdfUrl: '/assets/PDF/GEMAS-PRECIOSAS-VARIADAS.pdf',
+    pdfUrl: '/assets/PDF/gemas-preciosas-variadas.pdf',
   },
   {
     id: 'edificio-la-defense',
@@ -128,7 +128,7 @@ export const assetsData: Asset[] = [
       predio3,
       predio4,
     ],
-    pdfUrl: '/assets/PDF/PROPOSTA-COMERCIAL-EDIFICIO-LA-DEFENSE-2.pdf',
+    pdfUrl: '/assets/PDF/proposta-comercial-edificio-la-defense-2.pdf',
   },
   {
     id: 'ativo-multissetorial-premium',
@@ -141,7 +141,7 @@ export const assetsData: Asset[] = [
       multisetorial3,
       multisetorial4,
     ],
-    pdfUrl: '/assets/PDF/ATIVO-MULTISSETORIAL-PORTUGUES.pdf',
+    pdfUrl: '/assets/PDF/ativo-multissetorial-portugues.pdf',
   },
   {
     id: 'fazenda-excepcional',
@@ -150,9 +150,8 @@ export const assetsData: Asset[] = [
     description: 'Apresentamos uma das maiores e mais estruturadas propriedades do centro-oeste brasileiro. Localizada no Mato Grosso, maior produtor de grãos e carne do país.',
     images: [
       fazenda1,
-      // Nota: Só há uma imagem disponível para fazenda, você pode adicionar mais se tiver
     ],
-    pdfUrl: '/assets/PDF/FAZENDA-MATO-GROSSO.pdf',
+    pdfUrl: '/assets/PDF/fazenda-mato-grosso.pdf',
   },
   {
     id: 'complexo-11-usinas',
@@ -168,7 +167,7 @@ export const assetsData: Asset[] = [
       complexoUsinas6,
       complexoUsinas7,
     ],
-    pdfUrl: '/assets/PDF/USINA-DE-ETANOL-COMPLEXO-DE-11-PORTUGUÊS.pdf',
+    pdfUrl: '/assets/PDF/usina-de-etanol-complexo-de-11-português.pdf',
   },
   {
     id: 'serrana',
@@ -183,7 +182,7 @@ export const assetsData: Asset[] = [
       serrana5,
       serrana6,
     ],
-    pdfUrl: '/assets/PDF/JAZIDA-MINERAL.pdf',
+    pdfUrl: '/assets/PDF/terra-serrana.pdf',
   },
   {
     id: 'usina-acucar-etanol-energia',
@@ -196,7 +195,7 @@ export const assetsData: Asset[] = [
       usinaAcucar3,
       usinaAcucar4,
     ],
-    pdfUrl: '/assets/PDF/USINA-DE-AÇUCAR-ETANOL-PORTUGUÊS.pdf',
+    pdfUrl: '/assets/PDF/usina-de-açucar-etanol-português.pdf',
   },
   {
     id: 'predio-sao-paulo',
@@ -211,7 +210,7 @@ export const assetsData: Asset[] = [
       paulista5,
       paulista6,
     ],
-    pdfUrl: '/assets/PDF/PREDIO-SÃO-PAULO.pdf',
+    pdfUrl: '/assets/PDF/predio-são-paulo.pdf',
   },
   {
     id: 'grupo-frigorificos-frangos',
@@ -224,7 +223,7 @@ export const assetsData: Asset[] = [
       frigoricoFrangos3,
       frigoricoFrangos4,
     ],
-    pdfUrl: '/assets/PDF/FRIGORIFICO-DE-FRANGOS.pdf',
+    pdfUrl: '/assets/PDF/frigorifico-de-frangos.pdf',
   },
   {
     id: 'frigorifico-geral',
@@ -232,8 +231,8 @@ export const assetsData: Asset[] = [
     price: 'US\$ 1.300.000.000',
     description: 'Oportunidade estratégica de aquisição no setor de proteína animal — Frango, Peixe e Derivados, com operação nacional e habilitação global de exportação.',
     images: [
-      frigorifico, // Só há uma imagem disponível para este ativo
+      frigorifico,
     ],
-    pdfUrl: '/assets/PDF/FRIGORIFICO.pdf',
+    pdfUrl: '/assets/PDF/frigorifico.pdf',
   },
 ];
