@@ -1,5 +1,6 @@
 import React from 'react';
 import { User, Phone, Mail } from 'lucide-react';
+import teamHelen from "@/assets/team-helen.jpg";
 
 const EntreEmContato: React.FC = () => {
   return (
@@ -31,7 +32,7 @@ const EntreEmContato: React.FC = () => {
             <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 flex-1 lg:flex-[2]">
               <div className="w-28 h-28 md:w-32 md:h-32 rounded-full overflow-hidden flex-shrink-0 border-2 border-cs-primary/20">
                 <img
-                  src="@/assets/team-helen.jpg"
+                  src={teamHelen}
                   alt="Helen Souza"
                   className="w-full h-full object-cover"
                 />
